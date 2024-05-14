@@ -1,3 +1,8 @@
+// https://www.mongodb.com/docs/compass/current/install/
+// wget https://downloads.mongodb.com/compass/mongodb-compass_1.43.0_amd64.deb
+// sudo dpkg -i mongodb-compass_1.43.0_amd64.deb
+// mongodb-compass
+
 import { Injectable } from '@nestjs/common';
 import { CreatePokemonDto } from './dto/create-pokemon.dto';
 import { UpdatePokemonDto } from './dto/update-pokemon.dto';
